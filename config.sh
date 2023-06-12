@@ -2,9 +2,9 @@
 
 # Device
 export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/EvilAnsh/twrp_device_realme_RMX2151.git -b android-12.1"
+export DT_LINK="https://github.com/EvilAnsh/twrp_device_realme_RMX2151.git -b a12.1-R6"
 
-export DEVICE="RMX2151"
+export DEVICE="RMX2001"
 export OEM="realme"
 
 # Build Target
@@ -25,7 +25,7 @@ DEPS=(
 export EXTRA_CMD="export OF_MAINTAINER=EvilAnsh"
 export TW_PREPARE_DATA_MEDIA_EARLY=true
 export OF_SCREEN_H=2400
-export OF_STATUS_H=115
+export OF_STATUS_H=120
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
 export OF_USE_LATEST_MAGISK=true
