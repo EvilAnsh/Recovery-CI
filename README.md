@@ -1,7 +1,7 @@
 # 🦊 OrangeFox Recovery CI
 A Free CI to Build OrangeFox Recovery
 
-### How to Use?
+## How to Use?
 ### - Fork and Build
 
 1. Install the Free ($0) Plan of [Cirrus CI](https://github.com/marketplace/cirrus-ci)
