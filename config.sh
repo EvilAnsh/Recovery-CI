@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/EvilAnsh/device_realme_RMX2151-recovery.git -b android-12.1"
+export DT_LINK="https://github.com/EvilAnsh/twrp_device_realme_RMX2151.git -b android-12.1"
 
 export DEVICE="RMX2151"
 export OEM="realme"
