@@ -23,7 +23,7 @@ DEPS=(
 
 # Extra Command
 export EXTRA_CMD="export OF_MAINTAINER=EvilAnsh"
-
+export TW_PREPARE_DATA_MEDIA_EARLY=true
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
 export OF_USE_LATEST_MAGISK=true
