@@ -24,7 +24,8 @@ DEPS=(
 # Extra Command
 export EXTRA_CMD="export OF_MAINTAINER=EvilAnsh"
 export TW_PREPARE_DATA_MEDIA_EARLY=true
-export FOX_VERSION="R11.1"
+export OF_SCREEN_H=2400
+export OF_STATUS_H=115
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
 export OF_USE_LATEST_MAGISK=true
