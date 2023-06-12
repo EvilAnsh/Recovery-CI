@@ -63,7 +63,7 @@ export LC_ALL="C"
 
 # Default Build Type
 if [ -z "$FOX_BUILD_TYPE" ]; then
-    export FOX_BUILD_TYPE="COMMUNITY"
+    export FOX_BUILD_TYPE="RUI2"
 fi
 
 # Default Maintainer's Name
