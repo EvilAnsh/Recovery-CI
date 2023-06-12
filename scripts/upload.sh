@@ -35,7 +35,7 @@ fi
 
 # Upload to WeTransfer
 # NOTE: the current Docker Image, "registry.gitlab.com/sushrut1101/docker:latest", includes the 'transfer' binary by Default
-transfer $FILENAME > link.txt || { echo "ERROR: Failed to Upload the Build!" && exit 1; }
+transfer anon $FILENAME > link.txt || { echo "ERROR: Failed to Upload the Build!" && exit 1; }
 
 # Mirror to temp.sh
 curl -T $FILENAME https://temp.sh/${FILENAME}/${TIMEOUT} > mirror.txt || { echo "WARNING: Failed to Mirror the Build!"; }
