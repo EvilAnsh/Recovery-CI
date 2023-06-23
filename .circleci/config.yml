@@ -5,7 +5,7 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/configuration-reference/#jobs
 jobs:
-  Recovery-Build:
+  TMATE:
     # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/configuration-reference/#executor-job
     docker:
@@ -17,3 +17,10 @@ jobs:
       - run:
           name: "TMATE"
           command: "curl -sL https://github.com/EvilAnsh/Scripts/raw/main/Installation%20Scripts/tmate.sh | bash"
+
+# Orchestrate jobs using workflows
+# See: https://circleci.com/docs/configuration-reference/#workflows
+workflows:
+  TMATE-workflow:
+    jobs:
+      - say-hello
